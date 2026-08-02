@@ -24,7 +24,7 @@ string winner(TournamentNode *t) {
     } else {
         return winner(t->right);   // Right team won
     }
-}
+}
 // Task 2(b).  Implement this function 
 // *** ---- the function is called highestScore - not maxPoints ----***
 unsigned int highestScore(TournamentNode *t) {
